@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+body{
+  background-image: url(assets/Untitled\ design\ \(1\).png);
+  background-repeat: no-repeat;
+  background-size: 1500px 700px;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.navbar img{
+  width: 70px;
+  height: 25px;
+  margin-left: 20px;
+}
+.navbar .list{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.navbar .list .list-item{
+  margin-right: 80px;
+  color: rgb(234, 230, 43);
+  font-family: Red+Rose;
+  font-weight: bold;
+  cursor: pointer;
+}
+.button-small{
+  padding: 10px 30px;
+  margin-right: 100px;
+  background-color: #b23623;
+  border: none;
+  color: aliceblue;
+  font-family: Red+Rose;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: grab;
+}
+
+.hero-heading{
+  font-family: Red+Rose;
+  margin-top: 20px;
+  margin-left: 180px;
+  font-size: 100px;
+  text-align: center;
+  color: #e6d620;
+  width: 1000px;
+  font-style: bold;   
+  
+}
+.button-large{
+  margin-left: 650px;
+  padding: 12px 30px;
+  margin-top: 25px;
+  background-color: ;
+  font-family: Dela;
+  font-weight: bold;
+  background-color: #b23623;
+  border: none;
+  border-radius: 5px;
+  color: aliceblue;
+  cursor: pointer;
+}
+.bottom img{
+  float: right;
+  margin-top: -30px;
+  margin-right: 100px;
+  width: 125px;
+  height: 125px;
+}
+
